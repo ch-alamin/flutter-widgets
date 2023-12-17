@@ -10,9 +10,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-       appBar: AppBar(
-         title: Text("Learn flutter widgets"),centerTitle: true,
-       ),
+        appBar: AppBar(
+          title: Text("Learn flutter widgets"),centerTitle: true,
+        ),
         body: Center(
           child: Container(
             child: Text("Tap here "),
